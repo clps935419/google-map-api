@@ -1,0 +1,64 @@
+@import "_reset";
+html, body {
+    height: 100%;
+    
+  }
+.wrap{
+    width: 100%;
+    height: 100%;
+    background: #FAFAFA;
+}
+.header{
+    text-align: center;
+    h1{
+        font-size: 26px;
+        font-weight: bolder;
+        padding: 20px 0;
+    }
+    .area{
+        padding: 10px 10px;
+        font-size: 18px;
+        background: #F5F5F5;
+        border: 1px solid #e4e4e4;
+    }
+}
+.box{
+    margin-top:50px; 
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    padding-bottom:50px; 
+    #map{
+        width: 500px;
+        height: 500px;
+    }
+    .content{
+        width: 500px;
+        height: 500px;
+        text-align: center;
+        
+        
+        .title{
+            border-bottom: black solid 1px;
+            padding: 5px 0;
+            font-weight: bolder;
+            background: #F2F3F4;
+            
+        }
+        .list{
+            overflow:auto;
+            height: 470px; 
+            background: #F6F8F8;
+            .liCont{
+                text-align: left;
+                h2{
+                     padding: 5px;
+                     font-weight: bolder;
+                }
+                .text{
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
